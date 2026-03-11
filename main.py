@@ -5,9 +5,7 @@ app = FastAPI()
 
  
 update_info = {
-    "version": "1.2",
-    "forceUpdate": True,
-    "updateUrl": "https://play.google.com/store/apps/details?id=com.djtmyhr"
+    "version": "1.0",
 }
 
 @app.get("/check-update")
