@@ -5,7 +5,7 @@ app = FastAPI()
 
  
 update_info = {
-    "version": "1.0",
+    "version": "1.1",
 }
 
 @app.get("/check-update")
