@@ -5,7 +5,7 @@ app = FastAPI()
 
  
 update_info = {
-    "version": "1.2.0",
+    "version": "1.2",
     "forceUpdate": True,
     "updateUrl": "https://play.google.com/store/apps/details?id=com.djtmyhr"
 }
