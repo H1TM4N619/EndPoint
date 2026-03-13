@@ -6,7 +6,7 @@ app = FastAPI()
  
 update_info = {
   "android": {
-    "version": "1.0",
+    "version": "1.1",
     "store_url": "https://play.google.com/store/apps/details?id=in.deerikaexpress.djtretailers"
   },
   "ios": {
