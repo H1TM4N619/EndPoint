@@ -5,8 +5,15 @@ app = FastAPI()
 
  
 update_info = {
-
-"version": "1.1"}
+  "android": {
+    "minimum_required_version": "1.2",
+    "store_url": "https://play.google.com/store/apps/details?id=com.djtmyhr"
+  },
+  "ios": {
+    "minimum_required_version": "1.2",
+    "store_url": "https://apps.apple.com/app/deerika-hypermart/id1509418088"
+  }
+}
 
 @app.get("/check-update")
 async def check_update():
