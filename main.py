@@ -6,7 +6,7 @@ app = FastAPI()
  
 update_info = {
   "android": {
-    "minimum_required_version": "1.1",
+    "minimum_required_version": "1",
     "store_url": "https://play.google.com/store/apps/details?id=com.djtmyhr"
   },
   "ios": {
